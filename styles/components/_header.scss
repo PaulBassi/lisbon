@@ -1,0 +1,40 @@
+header {
+    background: url(../../images/main-image.png);
+    height: 900px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    // background: red;
+    height: 100vh;
+}
+
+.headerTop_wrapper {
+    border: 1px solid red;
+    display: flex;
+    // justify-content: space-between;
+    align-items: center;
+}
+
+.headerTop__nav__ul {
+    border: 1px solid yellow;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+        a {
+            color: white;
+            text-decoration: none;
+    }
+}
+
+.headerLogo {
+    width: 30%;
+}
+
+.headerTop nav {
+    width: 70%;
+}
+
+

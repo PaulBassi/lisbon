@@ -2,3 +2,17 @@
     width: 60%;
     margin: 0 auto;
 }
+.sectionHeadings {
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 0 5% 0;
+}
+
+.sectionHeadings:after {
+    content: "";
+    border-bottom: 1px solid red;
+    width: 5%;
+    display: block;
+    margin: 0 auto;
+    padding-top: 2%;
+}

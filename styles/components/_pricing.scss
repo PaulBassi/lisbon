@@ -1,0 +1,47 @@
+.pricing {
+    margin-bottom: 10%;
+    background: url(../../images/pricing-image.png);
+    .sectionHeadings {
+        color: white;
+    }
+}
+
+.pricingPlans {
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    padding: 2%;
+}
+
+.plan {
+    width: 31%;
+    text-align: center;
+    background: #fafafa;
+    border: 1px solid #ececec;
+    h6 {
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 26px;
+    }
+    p.planSubheading {
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 26px;
+    }
+    p.monthlyRate {
+        font-size: 40px;
+        font-weight: 500;
+        line-height: 26px;
+        sup {
+            font-size: 30px;
+            font-weight: 300;
+            line-height: 26px;
+        }
+        sub {
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 26px;
+            color: $grey;
+        }
+    }
+}

@@ -1,0 +1,41 @@
+.join {
+    background: url(../../images/purple-pattern-bg.png);
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    // align-items: center;
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+.joinHeadings {
+    width: 75%;
+    margin: 0 auto;
+    color: white;
+    p {
+       font-size: 14px;
+       line-height: 26px;
+       margin-bottom: 5%;
+    }
+}
+
+input.joinSearch {
+    background: transparent;
+    height: 50px;
+    width: 360px;
+    color: white;
+    border: 1px solid white;
+    border-right: none;
+    border-radius: 5px 0 0 5px;
+}
+
+input.joinSubscribe {
+    background: #e85889;
+    height: 53.5px;
+    width: 174px;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 0 5px 5px 0;
+    border: none;
+}

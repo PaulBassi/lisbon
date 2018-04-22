@@ -1,0 +1,60 @@
+// FONT STYLES
+    // font-family: 'Poppins', sans-serif;
+    // font-family: 'Open Sans', sans-serif;
+    // font-family: 'Raleway', sans-serif;
+
+$purple: #463f8c;    
+$pink: #e85889;
+$grey: #777777;
+
+$primaryFont: 'Poppins', sans-serif;
+$secondaryFont: 'Raleway', sans-serif;
+
+
+body {
+    font-family: $primaryFont;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: $secondaryFont;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 50px;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 26px;
+    text-transform: uppercase;
+
+}
+
+h3 {
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 32px;
+    text-transform: uppercase;
+}
+
+h4 {
+
+}
+
+h5 {
+
+}
+
+h6 {
+
+}
+
+p.subHeading {
+    font-size: 17px;
+    font-style: italic;
+    line-height: 26px;
+}

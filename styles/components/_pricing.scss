@@ -1,6 +1,7 @@
 .pricing {
-    margin-bottom: 10%;
+    margin-bottom: 5%;
     background: url(../../images/pricing-image.png);
+    background-repeat: no-repeat;
     .sectionHeadings {
         color: white;
     }
@@ -18,15 +19,25 @@
     text-align: center;
     background: #fafafa;
     border: 1px solid #ececec;
+    padding: 5%;
     h6 {
         font-size: 20px;
         font-weight: 500;
         line-height: 26px;
+        margin: 0;
     }
-    p.planSubheading {
+    p.planSubHeading {
         font-size: 14px;
         font-weight: 300;
         line-height: 26px;
+    }
+    p.planSubHeading:after {
+        content: "";
+        border-bottom: 1px solid $purple;
+        width: 10%;
+        display: block;
+        margin: 0 auto;
+        padding-top: 5%;
     }
     p.monthlyRate {
         font-size: 40px;
@@ -43,5 +54,34 @@
             line-height: 26px;
             color: $grey;
         }
+    }
+}
+
+.planFeatures {
+    margin-bottom: 15%;
+    p {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 15px;
+        line-height: 38px;
+    }
+}
+
+.planButton {
+    background-color: $pink;
+    width: 178px;
+    height: 52px;
+    border-radius: 5px;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    a {
+        color: white;
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 26px;
+        text-decoration: none;
+        text-transform: uppercase;
     }
 }

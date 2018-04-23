@@ -1,0 +1,91 @@
+.schedule {
+    background: #fafafa;
+    // padding: 5%;
+    padding-bottom: 5%;
+}
+
+.scheduleMain {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid red;
+}
+
+.scheduleDays {
+    width: 33.3%;
+}
+
+.dayContainer {
+    background: white;
+    border: 1px solid #ececec;
+    padding: 2%;
+    width: 281px;
+    height: 88px;
+    p.date {
+        margin: 0;
+        font-size: 13px;
+        line-height: 26px;
+    }
+    p.day {
+        margin: 0;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 26px;
+    }
+}
+
+.dayContainer:nth-of-type(3) {
+    background: $pink;
+    color: white;
+}
+
+.events {
+    width: 66.6%
+}
+
+
+.event {
+    display: flex;
+    justify-content: flex-end;
+    p.presenter {
+        margin: 0;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 28px;
+        span {
+            font-family: Raleway;
+            color: #777777;
+            font-size: 13px;
+            line-height: 28px;
+            margin-left: 20px;
+        }
+    }
+    p.topic {
+        margin: 0;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 28px;
+    }
+    p.topicBlurb {
+        margin: 0;
+        font-size: 13px;
+        line-height: 24px;
+        color: #666666;
+    }
+}
+
+.presenterPhoto {
+    width: 58px;
+    margin-right: 2%;
+    img {
+        width: 100%;
+        border-radius: 50%;
+        display: block;
+    }
+}
+
+.eventTextContainer {
+    width: 84%;
+    border: 1px solid steelblue;
+}
+

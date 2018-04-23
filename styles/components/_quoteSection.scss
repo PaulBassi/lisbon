@@ -1,0 +1,85 @@
+.quoteSection {
+    background: $purple;
+    margin-bottom: 50%;
+    .wrapper {
+        padding: 5% 0;
+        
+
+    }
+}
+
+.quoteArea {
+    width: 600px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.quotePhotos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 20%;
+    height: 280px;
+    .quotePhoto {
+        width: 46px;
+        height: 46px;
+    img {
+        width: 100%;
+        border-radius: 50%;
+    }
+    
+}
+}
+
+.quotePhoto1 img {
+    border: 6px solid #ececec;
+}
+
+
+
+
+
+.smartQuote {
+    font-size: 110px;
+    line-height: 26px;
+    color: white;
+    position: absolute;
+    top: 20%;
+    left: -15%;
+    font-family: PlantagenetCherokee;
+}
+
+.quoteText {
+    position: relative;
+}
+
+.quote {
+    // width
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 46px;
+    color: white;
+}
+
+.quoteBlurb {
+    color: #bfb9f6;
+    font-size: 17px;
+    font-style: italic;
+    line-height: 28px;
+}
+
+.quoteName {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+    color: white;
+    span {
+        color: #bfb9f6;
+        font-size: 17px;
+        font-style: italic;
+        line-height: 28px;
+        
+    }
+}

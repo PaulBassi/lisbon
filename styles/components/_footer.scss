@@ -1,0 +1,117 @@
+.footerTop {
+    background: #1b1b1b;
+    padding: 3% 0;
+    
+}
+
+.footerTop .wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.footerTop .address, .footerTop .phone, .footerTop .email {
+    width: 33.3%;
+    display: flex;
+    justify-content: center;
+
+    // align-items: center;
+}
+
+.icon {
+    width: 58px;
+    background: #2f2f2f;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10%;
+    svg {
+        fill: white;
+        // margin-top: 10%;
+    }
+}
+
+.address svg {
+    width: 35px;
+    height: 35px;
+    fill: white;
+    margin-top: 5%;
+}
+
+.phone {
+    border-left: 1px solid rgba(88, 88, 88, 0.58);
+    border-right: 1px solid rgba(88, 88, 88, 0.58);
+}
+
+.phone svg {
+    width: 40px;
+    height: 40px;
+    margin-top: 5%;
+}
+
+.email svg {
+    width: 50px;
+    height: 50px;
+    margin-top: 10%;
+}
+
+.footerTopText {
+    color: #ababab;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 10px;
+}
+
+
+// Footer Bottom Styles
+
+.footerBottom {
+    background: #100f0f;
+    padding: 3% 0;
+}
+
+.footerBottom .wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    img {
+        margin-bottom: 5%;
+    }
+}
+
+
+nav.footerNav {
+    width: 60%;
+    margin-bottom: 3%;
+    ul {
+        display: flex;
+        justify-content: space-between;
+
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        a {
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 28px;
+            text-decoration: none;
+            color: #ababab;
+            transition: 0.5s;
+            &:hover {
+                color: $pink;
+            }
+        }
+    }
+}
+
+.footerCopyright {
+    font-size: 15px;
+    line-height: 28px;
+    color: white;
+    span {
+        color: $pink;
+    }
+
+}
+
+

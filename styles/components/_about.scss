@@ -1,5 +1,6 @@
 .about {
     margin-bottom: 10%;
+    padding-top: 5%;
 }
 
 .aboutArticles {
@@ -8,6 +9,7 @@
     article {
         width: 31%;
         box-shadow: 2px 4px 18px 0px rgba(0, 0, 0, 0.03);
+        transition: 0.5s;
     }
     article:hover {
         box-shadow: 2px 4px 18px 0px rgba(0, 0, 0, 0.13);
@@ -40,6 +42,7 @@
         line-height: 26px;
         color: #e85889;
         text-decoration: none;
+        transition: 0.5s;
     }
     a:hover {
         color: #463f8c;

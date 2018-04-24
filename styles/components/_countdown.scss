@@ -7,17 +7,17 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    // margin-bottom: 5%;
 }
 
 .countdownText {
-    border: 1px solid tomato;
-    width: 25%;
+    width: 26%;
     p {
         font-size: 14px;
         font-weight: 500;
         line-height: 26px;
+        text-transform: uppercase;
         margin: 0;
+        color: #777777;
     }
     h3 {
         margin: 0;
@@ -25,10 +25,6 @@
 }
 
 .counter {
-    border: 1px solid tomato;
-    
-    // width: 40%;
-    // margin-left: 5%;
     display: flex;
 }
 
@@ -42,9 +38,11 @@
     background: #333333;
     color: white;
     border-radius: 5px;
+    margin: 0 1%;
+
     font-size: 20px;
     font-weight: 600;
-    margin: 0 1%;
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -53,6 +51,7 @@
 .counterSeparator {
     width: 14px;
     height: 45px;
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -60,60 +59,49 @@
 
 p.counterUnits {
     color: #777777;
-    font-size: 15px;/* Approximation due to font substitution */
+    font-size: 15px;
     font-weight: 400;
-    line-height: 26px;/* Approximation due to font substitution */
+    line-height: 26px;
     text-align: left;
-    // margin: 0;
 }
 
 .counterButtons {
-    border: 1px solid tomato;
-    
-    // width: 33%;
-    // margin-left: 5%;
     display: flex;
-    .ticketButton, .detailsButton {
-        width: 178px;
-        height: 52px;
-        border-radius: 5px;
-        font-size: 15px;
-        font-weight: 700;
-        line-height: 26px;
-        text-transform: uppercase;
-
-        text-align: center;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
     .ticketButton {
-        background: #463f8c;
+        background: $purple;
+        transition: 0.2s;
+    &:hover {
+        box-shadow: 5px 5px darken($purple,10%);
+    }
     }
     .detailsButton {
-        background: #e85889;
-        margin-left: 3%;
+        background: $pink;
+        transition: 0.2s;        
+        margin-left: 5%;
+    &:hover {
+        box-shadow: 5px 5px darken($pink,20%);
     }
-    .ticketButton a, .detailsButton a {
-        display: inline-block;
-        color: white;
-        text-decoration: none;
     }
 }
 
+.counterButtons a.ticketButton, .counterButtons a.detailsButton {
+    width: 178px;
+    height: 52px;
+    border-radius: 5px;
+    color: white;
+    
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
 
-.ticketButton, .detailsButton {
-        width: 178px;
-        height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 
-a.buyTicket {
-    background: #463f8c;
-}
 
-a.details {
-    background: #e85889;
-}
+
 
 

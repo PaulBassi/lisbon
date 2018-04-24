@@ -1,17 +1,21 @@
 .news {
     // padding-top: 5%;
+    padding-bottom: 5%;
 }
 
 .newsGallery {
+    // display: flex;
+    // flex: row wrap;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    grid-gap: 30px;
+    // grid-gap: 30px;
     .newsBox {
-        // width: 30%;
-        // height: 300px;
+        // width: auto;
+        // height: auto;
         img {
             width: 100%;
+            height: 100%;
             display: block;
         }
     }
@@ -30,24 +34,6 @@
         font-size: 14px;
     }
 }
-
-// .newsBox .readMore {
-//     border-radius: 5px;
-//     background-color: #e85889;
-//     width: 152px;
-//     height: 44px;
-//     display: flex;
-//     justify-content: center;
-//     align-items: center;
-//     a {
-//         color: white;
-//         font-size: 14px;
-//         font-weight: 600;
-//         line-height: 26px;
-//         text-transform: uppercase;
-//         text-decoration: none;
-//     }
-// }
 
 .newsBox a.readMore {
         width: 152px;
@@ -68,13 +54,72 @@
         &:hover {
             box-shadow: 5px 5px darken($pink,20%);
         }
+}
+
+
+
+.newsBox1 {
+    padding-right: 15px;
+    background: #fafafa;
+    margin-bottom: 15px;
+}
+
+.newsBox2 {
+    margin-right: 15px;
+    margin-bottom: 15px;
+    padding-left: 35px;
+}
+
+.newsBox3 {
+    padding-bottom: 15px;
+    margin-left: 15px;
+    background: #fafafa;
+}
+
+.newsBox4 {
+    margin-top: 15px;
+    margin-right: 15px;
+    padding-left: 30px;
+}
+
+.newsBox5 {
+    margin-top: 15px;
+    margin-right: 15px;
+    margin-left: 15px;
+    // padding-left: 30px;
+    .top {
+        height: 50%;
+        background: $purple;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .fa-link {
+            color: white;
+            font-size: 23px;
+            margin-bottom: 5%;
+            
+        }
+        a {
+            font-family: Raleway;
+            color: #ffffff;
+            font-size: 18px;
+            text-decoration: none;
+        }
     }
-
-.newsBox .top {
-    height: 50%;
+    .bottom {
+        height: 50%;
+        padding-top: 15%;
+        padding-left: 30px;
+        background: #fafafa;
+    }
 }
 
-.newsBox .bottom {
-    height: 50%;
+.newsBox6 {
+    margin-left: 15px;
+    padding-left: 30px;
+    .newsBlurb {
+        margin-bottom: 8%;
+    }
+ 
 }
-

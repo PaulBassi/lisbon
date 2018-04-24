@@ -1,26 +1,25 @@
 .quoteSection {
     background: $purple;
-    margin-bottom: 50%;
+    margin-bottom: 5%;
     .wrapper {
         padding: 5% 0;
-        
-
     }
 }
 
 .quoteArea {
     width: 600px;
     display: flex;
-    justify-content: flex-start;
-    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+
 }
 
 .quotePhotos {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin-right: 20%;
-    height: 280px;
+    margin-right: 5%;
+    padding: 1% 0;
     .quotePhoto {
         width: 46px;
         height: 46px;
@@ -42,16 +41,19 @@
 
 .smartQuote {
     font-size: 110px;
-    line-height: 26px;
     color: white;
-    position: absolute;
-    top: 20%;
-    left: -15%;
+    margin-right: 5%;
+    width: 10%;
+    display: flex;
+    justify-content: flex-end;
     font-family: PlantagenetCherokee;
 }
 
 .quoteText {
-    position: relative;
+    // position: relative;
+    display: flex;
+    flex-direction: row;
+    // flex-direction: column;
 }
 
 .quote {
@@ -61,6 +63,7 @@
     font-weight: 700;
     line-height: 46px;
     color: white;
+    margin: 0;
 }
 
 .quoteBlurb {
@@ -75,11 +78,13 @@
     font-weight: 600;
     line-height: 28px;
     color: white;
+    margin: 0;
     span {
         color: #bfb9f6;
         font-size: 17px;
         font-style: italic;
         line-height: 28px;
+        margin-bottom: 0;
         
     }
 }

@@ -1,18 +1,21 @@
 .schedule {
     background: #fafafa;
     // padding: 5%;
-    padding-bottom: 5%;
+    padding: 5% 0;
 }
 
 .scheduleMain {
     width: 100%;
     display: flex;
     justify-content: space-between;
+    // align-items: center;
     border: 1px solid red;
 }
 
 .scheduleDays {
-    width: 33.3%;
+    width: 25%;
+    margin-top: 4%;
+    margin-right: 5%;
 }
 
 .dayContainer {
@@ -21,6 +24,7 @@
     padding: 2%;
     width: 281px;
     height: 88px;
+    padding-left: 10%;
     p.date {
         margin: 0;
         font-size: 13px;
@@ -40,13 +44,14 @@
 }
 
 .events {
-    width: 66.6%
+    width: 75%
 }
 
 
 .event {
     display: flex;
     justify-content: flex-end;
+    margin-bottom: 8%;
     p.presenter {
         margin: 0;
         font-size: 14px;
@@ -75,17 +80,19 @@
 }
 
 .presenterPhoto {
-    width: 58px;
+    width: 80px;
+    height: 80px;
     margin-right: 2%;
     img {
         width: 100%;
         border-radius: 50%;
         display: block;
+        border: 7px solid #ececec;
     }
 }
 
 .eventTextContainer {
     width: 84%;
-    border: 1px solid steelblue;
+    // border: 1px solid steelblue;
 }
 

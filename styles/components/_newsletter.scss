@@ -1,0 +1,45 @@
+.newsletter {
+    background: url(../../images/white-pattern-bg.png);
+    text-align: center;
+    // margin-bottom: 5%;
+    .wrapper {
+        padding: 5% 0;
+        .newsletterHeading {
+            font-size: 28px;
+            font-weight: 700;
+            line-height: 28px;
+            }
+    }
+}
+
+.newsletterHeading {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 28px;
+    margin-bottom: 5%;
+}
+
+.newsletter input.email {
+    width: 621px;
+    height: 48px;
+    border: none;
+    border-radius: 5px;
+    color: #999999;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    padding-left: 2%;
+}
+
+.newsletter input.subscribe {
+    background-color: #e85889;
+    width: 160px;
+    height: 48px;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+}

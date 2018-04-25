@@ -44,10 +44,25 @@
         text-decoration: none;
         transition: 0.5s;
     }
+    
     a:hover {
         color: #463f8c;
     }
 }
 
 
+@media (max-width: 945px) {
+    .articleTextContainer {
+        padding: 2%;
+    }
+
+    .aboutArticles {
+        flex-direction: column;
+        align-items: center;
+        article {
+            width: 75%;
+            margin-bottom: 1%;
+        }
+    }
+}
 

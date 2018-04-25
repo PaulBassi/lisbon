@@ -1,22 +1,15 @@
 .newsletter {
     background: url(../images/white-pattern-bg.png);
     text-align: center;
-    // margin-bottom: 5%;
     .wrapper {
         padding: 5% 0;
         .newsletterHeading {
             font-size: 28px;
             font-weight: 700;
             line-height: 28px;
-            }
+            margin-bottom: 5%;
+        }
     }
-}
-
-.newsletterHeading {
-    font-size: 28px;
-    font-weight: 700;
-    line-height: 28px;
-    margin-bottom: 5%;
 }
 
 .newsletter input.email {
@@ -42,5 +35,22 @@
     font-size: 14px;
     font-weight: 400;
     line-height: 28px;
+}
+
+@media (max-width: 600px) {
+    .newsletter .wrapper .newsletterHeading {
+        font-size: 20px;
+    }
+
+    .newsletter input.email {
+        height: 40px;
+        width: 80%;
+        margin-bottom: 2%;
+    }
+
+    .newsletter input.subscribe {
+        width: 140px;  
+        height: 40px;  
+    }
 }
 

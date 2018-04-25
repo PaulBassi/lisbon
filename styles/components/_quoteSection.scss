@@ -11,7 +11,6 @@
     display: flex;
     justify-content: center;
     flex-direction: row;
-
 }
 
 .quotePhotos {
@@ -27,17 +26,12 @@
         width: 100%;
         border-radius: 50%;
     }
-    
-}
+    }
 }
 
 .quotePhoto1 img {
     border: 6px solid #ececec;
 }
-
-
-
-
 
 .smartQuote {
     font-size: 110px;
@@ -50,14 +44,11 @@
 }
 
 .quoteText {
-    // position: relative;
     display: flex;
     flex-direction: row;
-    // flex-direction: column;
 }
 
 .quote {
-    // width
     font-family: 'Raleway', sans-serif;
     font-size: 30px;
     font-weight: 700;
@@ -86,5 +77,41 @@
         line-height: 28px;
         margin-bottom: 0;
         
+    }
+}
+
+@media (max-width: 1250px) {
+    .quoteArea {
+        width: 100%;
+    }
+}
+
+@media (max-width: 800px) {
+    .quoteArea {
+        flex-direction: column;
+    }
+
+    .quotePhotos {
+        flex-direction: row;
+        justify-content: space-around;
+        margin-bottom: 2%;
+    }
+    .smartQuote {
+        font-size: 50px;
+    }
+
+    .quote {
+        font-size: 22px;
+    }
+
+    .quoteBlurb {
+        font-size: 14px;
+    }
+
+    .quoteName {
+        font-size: 14px;
+        span {
+            font-size: 14px;
+        }
     }
 }

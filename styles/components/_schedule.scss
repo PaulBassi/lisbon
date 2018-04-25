@@ -1,6 +1,5 @@
 .schedule {
     background: #fafafa;
-    // padding: 5%;
     padding: 5% 0;
 }
 
@@ -8,8 +7,6 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
-    // align-items: center;
-    border: 1px solid red;
 }
 
 .scheduleDays {
@@ -44,14 +41,15 @@
 }
 
 .events {
-    width: 75%
+    width: 75%;
+    border-left: 1.5px dashed #ececec;
 }
-
 
 .event {
     display: flex;
     justify-content: flex-end;
     margin-bottom: 8%;
+    position: relative;
     p.presenter {
         margin: 0;
         font-size: 14px;
@@ -79,6 +77,34 @@
     }
 }
 
+.event::before{
+   position: absolute;
+   top: 40%;
+   width: 30px;
+   border-bottom: 1.5px dashed #e0e0e0;
+   content: "";
+   display: inline-block;
+   left: 1px;
+}
+
+.borderMaskTop {
+    position: absolute;
+    top: 0px;
+    left: -15px;
+    height: 40%;
+    width: 30px;
+    background: #fafafa;
+}
+
+.borderMaskBottom {
+    position: absolute;
+    bottom: -65px;
+    left: -15px;
+    height: 121%;
+    width: 30px;
+    background: #fafafa;
+}
+
 .presenterPhoto {
     width: 80px;
     height: 80px;
@@ -93,6 +119,61 @@
 
 .eventTextContainer {
     width: 84%;
-    // border: 1px solid steelblue;
 }
 
+
+@media (max-width: 1765px) {
+    .events {
+        border-left: none;
+    }
+    .event::before{
+        display: none;   
+    }
+    .borderMaskBottom, .borderMaskTop {
+        display: none;
+    }
+}
+
+@media (max-width: 1600px) {
+    .scheduleMain {
+        flex-direction: column;
+    }
+
+    .scheduleDays {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 5%;
+        .dayContainer {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding-left: 0;
+        }
+    }
+
+    .events {
+        width: 100%;
+    }
+}
+
+@media (max-width: 825px) {
+    .event .topicBlurb {
+        display: none;
+    }
+}
+
+@media (max-width: 545px) {
+    .dayContainer .day {
+        
+        display: none;
+    }
+
+    .event {
+        align-items: center;
+        .topic {
+            display: none;
+        }
+    }
+}

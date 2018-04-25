@@ -1,18 +1,12 @@
 .news {
-    // padding-top: 5%;
     padding-bottom: 5%;
 }
 
 .newsGallery {
-    // display: flex;
-    // flex: row wrap;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    // grid-gap: 30px;
     .newsBox {
-        // width: auto;
-        // height: auto;
         img {
             width: 100%;
             height: 100%;
@@ -34,24 +28,6 @@
         font-size: 14px;
     }
 }
-
-// .newsBox .readMore {
-//     border-radius: 5px;
-//     background-color: #e85889;
-//     width: 152px;
-//     height: 44px;
-//     display: flex;
-//     justify-content: center;
-//     align-items: center;
-//     a {
-//         color: white;
-//         font-size: 14px;
-//         font-weight: 600;
-//         line-height: 26px;
-//         text-transform: uppercase;
-//         text-decoration: none;
-//     }
-// }
 
 .newsBox a.readMore {
         width: 152px;
@@ -104,7 +80,6 @@
     margin-top: 15px;
     margin-right: 15px;
     margin-left: 15px;
-    // padding-left: 30px;
     .top {
         height: 50%;
         background: $purple;
@@ -116,7 +91,6 @@
             color: white;
             font-size: 23px;
             margin-bottom: 5%;
-            
         }
         a {
             font-family: Raleway;
@@ -139,5 +113,52 @@
     .newsBlurb {
         margin-bottom: 8%;
     }
- 
+}
+
+.newsCircles {
+    display: none;
+}
+
+
+@media (max-width: 945px) {
+      
+    .newsGallery {
+        width: 80%;
+        margin: 0 auto;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+
+    .newsBox1, .newsBox3, .newsBox4, .newsBox5, .newsBox6 {
+        display: none;
+    }
+
+    .newsBox2 {
+        width: 100%;
+        padding: 0 2% 2% 2%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        // justify-content: center;
+        align-items: center;
+    }
+
+    .newsCircles {
+        margin-top: 2%;
+        text-align: center;
+        font-size: 12px;
+        display: block;
+}
+
+    .fa-circle.end {
+        color: $purple;
+    }
+
+    .fa-circle.middle {
+        color: #e85889;
+        border: 1px solid #e85889;
+        border-radius: 50%;
+        padding: 2px;
+    }
+
 }

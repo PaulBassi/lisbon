@@ -18,11 +18,39 @@
     <main>
         <!-- HEADER STARTS -->
         <header>
+            <!-- headerTop wrapper starts-->
             <div class="wrapper">
                 <div class="headerTop">
                     <div class="headerLogo">
                         <img src="images/logo.png" alt="">
                     </div>
+
+                    <!-- hamburger menu starts (responsive) -->
+                    <nav class="nav-burger">
+                    <div id="menuToggle">
+                    
+                        <input type="checkbox"/>
+                        
+                        <span></span>
+                        <span></span>
+                        <span></span>
+
+                        <ul id="menu">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#about">About Us</a></li>
+                            <li><a href="#eventSpeakers">Speakers</a></li>
+                            <li><a href="#pricing">Prices</a></li>
+                            <li><a href="#">Sponsors</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Venues</a></li>
+                            <li><a href="#contact">Contact Us</a></li>
+                            <div class="navSearch"><a href="#"><i class="fas fa-search"></i></a></div>
+                        </ul>
+                    </div>
+                    </nav>
+                    <!-- hamburger menu ends -->
+
+                    <!-- main-nav starts -->
                     <nav class="main-nav">
                         <ul>
                             <li><a href="#">Home</a></li>
@@ -36,8 +64,11 @@
                             <div class="navSearch"><a href="#"><i class="fas fa-search"></i></a></div>
                         </ul>
                     </nav>
+                    <!-- main-nav ends -->
                 </div>
+                <!-- headerTop ends -->
 
+                <!-- headerText starts -->
                 <div class="headerText">
                     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 100 125"
                         enable-background="new 0 0 100 100" xml:space="preserve">
@@ -48,27 +79,34 @@
                             />
                         </g>
                     </svg>
-                    <p>20 - 22 June, 2018, New York City</p>
+                    <p>20 - 22 June, 2018,<span> New York City</span></p>
                     <h1>World Digital Conference 2018 Lead To Your Career</h1>
                     <a href="#">Buy Tickets</a>
                 </div>
-
+                <!-- headerText ends -->
             </div>
+            <!-- headerTop wrapper ends -->
+
+            <!-- right and left arrows -->
             <div class="arrow arrowLeft">
                 <i class="fas fa-angle-left"></i>
             </div>
             <div class="arrow arrowRight">
                 <i class="fas fa-angle-right"></i>
             </div>
+
         </header>
         <!-- HEADER ENDS -->
         <!-- COUNTDOWN SECTION STARTS -->
         <section class="countdown">
+            <!-- countdown wrapper starts -->
             <div class="wrapper">
                 <div class="countdownText">
                     <p>26-29 August 2017, Berlin</p>
                     <h3>International Conference in 2017</h3>
                 </div>
+
+                <!-- counter starts -->
                 <div class="counter">
                     <div class="counterDays">
                         <div class="counterBoxes">
@@ -84,9 +122,11 @@
                         </div>
                         <p class="counterUnits">Days</p>
                     </div>
+
                     <div class="counterSeparator">
                         <p>:</p>
                     </div>
+
                     <div class="counterHours">
                         <div class="counterBoxes">
                             <div class="counterBox">
@@ -98,9 +138,11 @@
                         </div>
                         <p class="counterUnits">Hours</p>
                     </div>
+
                     <div class="counterSeparator">
                         <p>:</p>
                     </div>
+
                     <div class="counterMinutes">
                         <div class="counterBoxes">
                             <div class="counterBox">
@@ -112,9 +154,11 @@
                         </div>
                         <p class="counterUnits">Minutes</p>
                     </div>
-                    <div class="counterSeparator">
+
+                    <div class="counterSeparator counterSeparator3">
                         <p>:</p>
                     </div>
+
                     <div class="counterSeconds">
                         <div class="counterBoxes">
                             <div class="counterBox">
@@ -126,16 +170,22 @@
                         </div>
                         <p class="counterUnits">Seconds</p>
                     </div>
+
                 </div>
+                <!-- counter ends -->
+
                 <div class="counterButtons">
                     <a href="#" class="ticketButton">Buy Ticket</a>
                     <a href="#" class="detailsButton">See Details</a>
                 </div>
             </div>
+            <!-- coundown wrapper ends -->
         </section>
         <!-- COUNTDOWN SECTION ENDS -->
+
         <!-- ABOUT SECTION STARTS -->
         <section class="about" id="about">
+            <!-- about wrapper starts -->
             <div class="wrapper">
                 <div class="sectionHeadings">
                     <h2>About These Events</h2>
@@ -143,7 +193,7 @@
                 </div>
                 <div class="aboutArticles">
                     <article>
-                        <img src="images/about-image-1.png" alt="">
+                        <img src="images/about-image-1.png" alt="Camera screens displaying various graphs and charts. In the background in a laser show at a concert">
                         <div class="articleTextContainer">
                             <p class="articleHeading">Why are we doing this?</p>
                             <p class="articleBlurb">It has survived not only five centuries, but also the leap into electronic typesetting.</p>
@@ -151,7 +201,7 @@
                         </div>
                     </article>
                     <article>
-                        <img src="images/about-image-2.png" alt="">
+                        <img src="images/about-image-2.png" alt="2 performers on stage at a concert. Theres a laser show with smoke and in the foreground there is concertgoers dancing.">
                         <div class="articleTextContainer">
                             <p class="articleHeading">What will you learn?</p>
                             <p class="articleBlurb">It has survived not only five centuries, but also the leap into electronic typesetting.</p>
@@ -159,7 +209,7 @@
                         </div>
                     </article>
                     <article>
-                        <img src="images/about-image-3.png" alt="">
+                        <img src="images/about-image-3.png" alt="A closeup shot of a macbook keyboard">
                         <div class="articleTextContainer">
                             <p class="articleHeading">What are the benefits?</p>
                             <p class="articleBlurb">It has survived not only five centuries, but also the leap into electronic typesetting.</p>
@@ -168,10 +218,13 @@
                     </article>
                 </div>
             </div>
+            <!-- about wrapper ends -->
         </section>
         <!-- ABOUT SECTION ENDS -->
+
         <!-- JOIN SECTION STARTS -->
         <section class="join">
+            <!-- join wrapper starts -->
             <div class="wrapper">
                 <div class="joinHeadings">
                     <h2>Join Our Event</h2>
@@ -179,44 +232,45 @@
                         labore sapiente aut reiciendis earum culpa id vel quidem odit in suscipit esse eum?</p>
                 </div>
                 <form action="POST">
-                    <input type="search" placeholder="Your email..." class="joinSearch">
-                    <input type="submit" value="Subscribe" class="joinSubscribe">
+                    <input type="search" placeholder="Your email..." class="joinSearch"><input type="submit" value="Subscribe" class="joinSubscribe">
                 </form>
             </div>
+            <!-- join wrapper ends -->
         </section>
         <!-- JOIN SECTION ENDS -->
 
         <!-- SPEAKERS SECTION STARTS -->
         <section class="eventSpeakers" id="eventSpeakers">
+            <!-- speakers wrapper starts -->
             <div class="wrapper">
                 <div class="sectionHeadings">
                     <h2>About These Events</h2>
                     <p class="subHeading">Starting your own IT business and picking the right niche in less than 30 days</p>
                 </div>
                 <div class="speakers">
-                    <div class="speaker">
-                        <img src="images/speaker-1.png" alt="">
+                    <div class="speaker speaker1">
+                        <img src="images/speaker-1.png" alt="Ashley Warner, an event speaker, she has dark wavy hair and large aviator style glasses. She's wearing a green knit sweater.">
                         <div class="speakerText">
                             <p class="speakerName">Ashley Warner</p>
                             <p class="speakerPosition">CEO, Hatem Co.</p>
                         </div>
                     </div>
-                    <div class="speaker">
-                        <img src="images/speaker-2.png" alt="">
+                    <div class="speaker speaker2">
+                        <img src="images/speaker-2.png" alt="Seth Rollins, an event speaker, he had grey hair and glasses, and a soul patch... He's wearing a green polo. He seems very proud to be speaking at this event.">
                         <div class="speakerText">
                             <p class="speakerName">Seth Rollins</p>
                             <p class="speakerPosition">GM, The BoxTrap</p>
                         </div>
                     </div>
-                    <div class="speaker">
-                        <img src="images/speaker-3.png" alt="">
+                    <div class="speaker speaker3">
+                        <img src="images/speaker-3.png" alt="Darla Johnson, an event speaker, has dark hair that's pulled back. She's wearing a orange sweater and a necklace.">
                         <div class="speakerText">
-                            <p class="speakerName">Darcy Owens</p>
+                            <p class="speakerName">Marcy Owens</p>
                             <p class="speakerPosition">Producer, CSI: Cyber</p>
                         </div>
                     </div>
-                    <div class="speaker">
-                        <img src="images/speaker-4.png" alt="">
+                    <div class="speaker speaker4">
+                        <img src="images/speaker-4.png" alt="Adam Rose, an event speaker, had dreadlocks and a goatee, he's wearing a white t shirt.">
                         <div class="speakerText">
                             <p class="speakerName">Adam Rose</p>
                             <p class="speakerPosition">CCO, Bittorent</p>
@@ -224,71 +278,93 @@
                     </div>
                 </div>
                 <div class="speakerCircles">
+                    <!-- responsive circles will be displayed with responsive breakpoints -->
+                    <i class="fas fa-circle responsive1"></i> 
                     <i class="fas fa-circle end"></i>
                     <i class="fas fa-circle middle"></i>
                     <i class="fas fa-circle end"></i>
+                    <i class="fas fa-circle responsive2"></i>
+                    
                 </div>
             </div>
+            <!-- speakers wrapper ends -->
         </section>
         <!-- SPEAKERS SECTION ENDS -->
 
         <!-- PRICING SECTION STARTS -->
         <section class="pricing" id="pricing">
+            <!-- pricing wrapper starts -->
             <div class="wrapper">
                 <div class="sectionHeadings">
                     <h2>Our Pricing</h2>
                     <p class="subHeading">Starting your own IT business and picking the right niche in less than 30 days</p>
                 </div>
+
                 <div class="pricingPlans">
                     <div class="plan basicPlan">
-                        <h6>Basic Plan</h6>
+                        <h6>Basic <span>Plan</span></h6>
                         <p class="planSubHeading">Standard Pricing Plan</p>
-                        <p class="monthlyRate"><sup>$</sup>35<sub>/ monthly</sub></p>
+                        <p class="monthlyRate">
+                            <sup>$</sup>35<sub>/ mo<span>nthly</span>
+                            </sub>
+                        </p>
                         <div class="planFeatures">
-                            <p>Clients Support 3 Event</p>
-                            <p>Regular Seat & Accomodation</p>
-                            <p>Free Coffee & Lunch</p>
-                            <p>Free Entrance Materials</p>
+                            <ul>
+                                <li><p>Clients Support 3 Event</p></li>
+                                <li><p>Regular Seat & Accomodation</p></li>
+                                <li><p>Free Coffee & Lunch</p></li>
+                                <li><p>Free Entrance Materials</p></li>
+                            </ul>
                         </div>
                             <a href="#" class="planButton">See Details</a>
                     </div>
+
                     <div class="plan optimalPlan">
-                        <h6>Optimal Plan</h6>
+                        <h6>Optimal <span>Plan</span></h6>
                         <p class="planSubHeading">Standard Pricing Plan</p>
                         <p class="monthlyRate">
-                            <sup>$</sup>60
-                            <sub>/ monthly</sub>
+                            <sup>$</sup>60<sub>/ mo<span>nthly</span></sub>
                         </p>
                         <div class="planFeatures">
-                            <p>Clients Support 3 Event</p>
-                            <p>Regular Seat & Accomodation</p>
-                            <p>Free Coffee & Lunch</p>
-                            <p>Free Entrance Materials</p>
+                            <ul>
+                                <li><p>Clients Support 3 Event</p></li>
+                                <li><p>Regular Seat & Accomodation</p></li>
+                                <li><p>Free Coffee & Lunch</p></li>
+                                <li><p>Free Entrance Materials</p></li>
+                            </ul>
                         </div>
                             <a href="#" class="planButton">See Details</a>
                             <div class="priceBanner">
                                 <p>Best Choice</p>
                             </div>
                     </div>
+
                     <div class="plan premiumPlan">
-                        <h6>Premium Plan</h6>
+                        <h6>Premium <span>Plan</span></h6>
                         <p class="planSubHeading">Standard Pricing Plan</p>
-                        <p class="monthlyRate"><sup>$</sup>90<sub>/ monthly</sub></p>
+                        <p class="monthlyRate">
+                            <sup>$</sup>90<sub>/ mo<span>nthly</span>
+                            </sub>
+                        </p>
                         <div class="planFeatures">
-                            <p>Clients Support 3 Event</p>
-                            <p>Regular Seat & Accomodation</p>
-                            <p>Free Coffee & Lunch</p>
-                            <p>Free Entrance Materials</p>
+                            <ul>
+                                <li><p>Clients Support 3 Event</p></li>
+                                <li><p>Regular Seat & Accomodation</p></li>
+                                <li><p>Free Coffee & Lunch</p></li>
+                                <li><p>Free Entrance Materials</p></li>
+                            </ul>
                         </div>
                             <a href="#" class="planButton">See Details</a>
                     </div>
                 </div>
             </div>
+            <!-- pricing wrapper ends -->
         </section>
         <!-- PRICING SECTION ENDS -->
 
         <!-- SCHEDULE SECTION STARTS -->
         <section class="schedule">
+            <!-- schedule wrapper starts -->
             <div class="wrapper">
                 <div class="sectionHeadings">
                     <h2>Event Schedule</h2>
@@ -317,11 +393,12 @@
 
                     <div class="events">
                         <div class="event">
+                            <div class="borderMaskTop"></div>
                             <div class="presenterPhoto">
-                                <img src="images/schedule-1.png" alt="">
+                                <img src="images/schedule-1.png" alt="Ashley Warner, an event speaker, she has dark wavy hair and large aviator style glasses. She's wearing a green knit sweater.">
                             </div>
                             <div class="eventTextContainer">
-                                <p class="presenter">Darla Johnson
+                                <p class="presenter">Marcy Owens
                                     <span>10AM - 12PM</span>
                                 </p>
                                 <p class="topic">Interfaces Holisticly predominate extensible testing procedures</p>
@@ -331,7 +408,8 @@
                         </div>
                         <div class="event">
                             <div class="presenterPhoto">
-                                <img src="images/schedule-2.png" alt="">
+                                <img src="images/schedule-2.png" alt="Seth Rollins, an event speaker, he had grey hair and glasses, and a soul patch... He's wearing a green polo. He seems very
+                                proud to be speaking at this event.">
                             </div>
                             <div class="eventTextContainer">
                                 <p class="presenter">Seth Rollins
@@ -343,8 +421,9 @@
                             </div>
                         </div>
                         <div class="event">
+                            <div class="borderMaskBottom"></div>
                             <div class="presenterPhoto">
-                                <img src="images/schedule-3.png" alt="">
+                                <img src="images/schedule-3.png" alt="Darla Johnson, an event speaker, has dark hair that's pulled back. She's wearing a orange sweater and a necklace.">
                             </div>
                             <div class="eventTextContainer">
                                 <p class="presenter">Darla Johnson
@@ -358,25 +437,29 @@
                     </div>
                 </div>
             </div>
+            <!-- schedule wrapper ends -->
         </section>
         <!-- SCHEDULE SECTION ENDS -->
 
         <!-- QUOTE SECTION STARTS -->
         <section class="quoteSection">
+            <!-- quote wrappers starts -->
             <div class="wrapper">
+                <!-- quote area container starts -->
                 <div class="quoteArea">
                     <div class="quotePhotos">
                         <div class="quotePhoto quotePhoto1">
-                            <img src="images/quote-1.png" alt="">
+                            <img src="images/quote-1.png" alt="Ashley Warner, an event speaker, she has dark wavy hair and large aviator style glasses. She's wearing a green knit sweater.">
                         </div>
                         <div class="quotePhoto">
-                            <img src="images/quote-2.png" alt="">
+                            <img src="images/quote-2.png" alt="Seth Rollins, an event speaker, he had grey hair and glasses, and a soul patch... He's wearing a green polo. He seems very
+                            proud to be speaking at this event.">
                         </div>
                         <div class="quotePhoto">
-                            <img src="images/quote-3.png" alt="">
+                            <img src="images/quote-3.png" alt="Darla Johnson, an event speaker, has dark hair that's pulled back. She's wearing a orange sweater and a necklace.">
                         </div>
                         <div class="quotePhoto">
-                            <img src="images/quote-4.png" alt="">
+                            <img src="images/quote-4.png" alt="Adam Rose, an event speaker, had dreadlocks and a goatee, he's wearing a white t shirt.">
                         </div>
                     </div>
 
@@ -395,79 +478,24 @@
                     </div>
 
                 </div>
+                <!-- quote area container ends -->
             </div>
+            <!-- quote wrapper ends -->
         </section>
         <!-- QUOTE SECTION ENDS -->
 
         <!-- NEWS SECTION STARTS -->
         <section class="news">
+            <!-- news wrapper starts -->
             <div class="wrapper">
                 <div class="sectionHeadings">
                     <h2>Latest News</h2>
                     <p class="subHeading">Starting your own IT business and picking the right niche in less than 30 days</p>
                 </div>
+
                 <div class="newsGallery">
-
-                    <div class="newsContainerTop">
-                        <div class="newsBox newsBoxImg">
-                            <img src="images/news-1.png" alt="">
-                        </div>
-
-                        <div class="newsBox newsBoxText">
-                            <h5>River stumble as lights</h5>
-                            <p class="newsSubHeading">By David Warner on 25 Apr 2017</p>
-                            <p class="newsBlurb">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
-                            <a href="#" class="readMore">Read More</a>
-                        </div>
-                    </div>
-
-                    <div class="newsContainerRight">
-                        <div class="newsBox newsBoxImg">
-                            <img src="images/news-2.png" alt="">
-                        </div>
-
-                        <div class="newsBox newsBoxText">
-                            <h5>River stumble as lights</h5>
-                            <p class="newsSubHeading">By David Warner on 25 Apr 2017</p>
-                            <p class="newsBlurb">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
-                            <a href="#" class="readMore">Read More</a>
-                        </div>
-                    </div>
-
-                    <div class="newsContainerBottom">
-                        <div class="newsBox newsBoxText">
-                            <h5>River stumble as lights</h5>
-                            <p class="newsSubHeading">By David Warner on 25 Apr 2017</p>
-                            <p class="newsBlurb">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
-                            <a href="#" class="readMore">Read More</a>
-                        </div>
-
-                        <div class="newsBox newsBoxLink">
-                            <div class="top">
-                                <a href="#">http://www.facebook.com</a>
-                            </div>
-                            <div class="bottom">
-                                <a href="#" class="readMore">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-        <!-- QUOTE SECTION ENDS -->
-
-        <!-- NEWS SECTION STARTS -->
-        <section class="news">
-            <div class="wrapper">
-                <div class="sectionHeadings">
-                    <h2>Latest News</h2>
-                    <p class="subHeading">Starting your own IT business and picking the right niche in less than 30 days</p>
-                </div>
-                <div class="newsGallery">
-
                         <div class="newsBox newsBox1 newsBoxImg">
-                            <img src="images/news-1.png" alt="">
+                            <img src="images/news-1.png" alt=" People sitting on a bench in a classroom type setting, there's a woman talking.">
                         </div>
     
                         <div class="newsBox newsBox2 newsBoxText">
@@ -478,7 +506,7 @@
                         </div>
                         
                         <div class="newsBox newsBox3 newsBoxImg">
-                            <img src="images/news-2.png" alt="">
+                            <img src="images/news-2.png" alt="A man with a backpack looking at a whiteboard.">
                         </div>
     
                         <div class="newsBox newsBox4 newsBoxText">
@@ -498,21 +526,30 @@
                             </div>
                         </div>
     
-                   
                         <div class="newsBox newsBox6 newsBoxText">
                             <h5>How To Build Your Event</h5>
                             <p class="newsSubHeading">By David Warner on 25 Apr 2017</p>
                             <p class="newsBlurb">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
                             <a href="#" class="readMore">Read More</a>
                         </div>
-     
+                </div>
+
+                <div class="newsCircles">
+                    <!-- displayed with breakpoints -->
+                    <i class="fas fa-circle end"></i>
+                    <i class="fas fa-circle end"></i>
+                    <i class="fas fa-circle middle"></i>
+                    <i class="fas fa-circle end"></i>
+                    <i class="fas fa-circle end"></i>
                 </div>
             </div>
+            <!-- news wrapper ends -->
         </section>
         <!-- NEWS SECTION ENDS -->
 
         <!-- NEWSLETTER SECTION STARTS -->
         <section class="newsletter">
+            <!-- newsletter wrapper starts -->
             <div class="wrapper">
                 <p class="newsletterHeading">Sign Up For Our Newsletter</p>
                 <form action="POST">
@@ -520,12 +557,15 @@
                     <input type="submit" value="Subscribe" class="subscribe">
                 </form>
             </div>
+            <!-- newsletter wrapper ends -->
         </section>
         <!-- NEWSLETTER SECTION ENDS -->
 
         <!-- FOOTER STARTS -->
         <footer>
+            <!-- footerTop starts -->
             <div class="footerTop" id="contact">
+                <!-- footerTop wrapper starts -->
                 <div class="wrapper">
                     <div class="address">
                         <div class="icon">
@@ -557,8 +597,14 @@
                         </div>
                     </div>
                 </div>
+                <!-- footerTop wrapper ends -->
+                <div class="footerLogo"><img src="images/logo.png" alt=""></div>
             </div>
+            <!-- footerTop ends -->
+
+            <!-- footerBottom starts -->
             <div class="footerBottom">
+                <!-- footerBottom wrapper starts -->
                   <div class="wrapper">
                       <img src="images/logo.png" alt="">
                       <nav class="footerNav">
@@ -572,13 +618,12 @@
                           </ul>
                       </nav>
                       <p class="footerCopyright">Copyright &copy; <span>Lisbon</span> 2017</p>
-                  </div>  
+                  </div> 
+                  <!-- footerBottom wrapper ends  -->
             </div>
-                <div class="contact"></div>
-            </div>
+            <!-- footerBottom ends -->
         </footer>
         <!-- FOOTER ENDS -->
-        
     </main>
     <!-- MAIN ENDS -->
 </body>
